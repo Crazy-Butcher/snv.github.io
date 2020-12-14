@@ -1,16 +1,19 @@
 body {
     position: relative;
     margin: 0;
+    padding: 0;
     max-width: 1920px;
     max-height: 1960px;
     background: #e28282;
 }
 
 .vertical-menu {
-    position: inherit;
-    margin: 0;
-    box-sizing: border-box;
-    max-width: 280px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* margin: 0; */
+    /* box-sizing: border-box; */
+    min-width: 280px;
     min-height: 1960px;
     background-color: #46b188;
 }
@@ -19,23 +22,20 @@ header {
     position: absolute;
     margin-top: 21px;
     margin-left: 23px;
-    margin-right: 18px;
-
-    box-sizing: border-box;
-    max-width: 239x;
-    max-height: 27px; /*???*/
-
-      
+    /* margin-right: 18px; лишний */
     display: flex;
     align-items: center;
-    justify-content: ;
+
+    box-sizing: border-box;
+    min-width: 239x; /*??? не работает*/
+    max-height: 27px;
 
     background-color: #ffffff;
 }
 
 h1 {
     padding-left: 10px;
-    padding-right: 91px;
+    /* padding-right: 91px; */
     font-family: 'Montserrat', sans-serif;
     color: #7e72f2; 
 }
@@ -44,22 +44,3 @@ h1 {
 
 }
 
-/* 
-.vertical-menu {
-    position: absolute;
-    margin: none;
-    max-width: 280px;
-    max-height: 1960px;
-    background-color: blueviolet;
-}
-
-.vertical-menu header {
-    position: absolute;
-    margin-left: 23px;
-    padding: 27px 239px;
-    /* max-width: 239px;
-    font-size: 22px; */
-/* 
-    background-color: lightgreen;
-    font-family: 'Montserrat', sans-serif;
-} */ 
