@@ -4,79 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vuesax Ecommerce Dashboard</title>
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/style.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> -->
 </head>
 <body>  
     <section class="vertical-menu">
         <header>
-            <img src="img/logo.svg" alt="Vuesax Logo">
-            <h1>Vuesax</h1>
-            <img src="img/Oval.svg" alt="">
+            <img src="img/v-menu/logo.svg" alt="Vuesax Logo">
+            <h>Vuesax</h>
+            <img src="img/v-menu/Oval.svg" alt="">
         </header>
         
         
         <div class="dashboard">
-            <button class="submenu">Dashboard</button>
-                <p><a href="#">Analytics</a></p>
-                <p><a href="#">eCommerce</a></p>
-            </div>
-        </div>
-        
-        <div class="apps">
-            <h1>Apps</h1>
-            <p><a href="#">Email</a></p>
-            <p><a href="#"></a>Chat</p>
-            <p><a href="#"></a>Todo</p>
-            <p><a href="#"></a>Calendar</p>
+            <!-- <button class="submenu">Dashboard</button> -->
+
+
+
+                <!-- <li><a href="#">Analytics</a></li>
+                <li><a href="#">eCommerce</a></li> -->
         </div>
 
-        <div class="ui-elements">
-            <h1>UI Elements</h1>
-            <p><a href="#">Grid</a></p>
-            <p><a href="#">Colors</a></p>
-            <p><a href="#">Card</a></p>
-            <p><a href="#">Table</a></p>
-            <p><a href="#"></a>Component</p>
-        </div>
-        <div class="forms">
-            <h1>Forms</h1>
-            <p><a href="#">Form Elements</a></p>
-            <p><a href="#">Form Layouts</a></p>
-            <p><a href="#">Form Wizard</a></p>
-            <p><a href="#">Form Validation</a></p>
-        </div>
-        <div class="pages">
-            <h1>Pages</h1>
-            <p><a href="#">Authentification</a></p>
-            <p><a href="#">Coming Soon</a></p>
-            <p><a href="#">Error</a></p>
-            <p><a href="#">Maintenance</a></p>
-            <p><a href="#">Profile</a></p>
-            <p><a href="#">FAQ</a></p>
-            <p><a href="#">Knowledge Base</a></p>
-            <p><a href="#">Search</a></p>
-            <p><a href="#">Invoice</a></p>
-        </div>
-        <div class="harts-maps">
-            <h1>Charts & Maps</h1>
-            <p><a href="#">Charts</a></p>
-            <p><a href="#">Google Map</a></p>
-        </div>
-        <div class="extensions">
-            <h1>Extensions</h1>
-            <p><a href="#">Select</a></p>
-            <p><a href="#">Quill Editor</a></p>
-            <p><a href="#">Drag & Drop</a></p>
-            <p><a href="#">Datepicker</a></p>
-        </div> 
+        <select name="dashboard-dropdown" id="">
+            <option value="">Dashboard</option>
+            <option value="">2</option>
+            <option value="">3</option>
+        </select>
+
+
+
+        <form action="#">
+            <p><input type="radio" value="Analytics">Analytics</p>
+            <p><input type="radio" value="eCommerce">eCommerce</p>
+        </form>
+
+        <ul class="apps">
+            <h>Apps</h>
+            <li><a href="#">Email</a></li>
+            <li><a href="#">Chat</a></li>
+            <li><a href="#">Todo</a></li>
+            <li><a href="#">Calendar</a></li>
+        </ul>
+
+        <ul class="ui-elements">
+            <h>UI Elements</h>
+            <li><a href="#">Grid</a></li>
+            <li><a href="#">Colors</a></li>
+            <li><a href="#">Card</a></li>
+            <li><a href="#">Table</a></li>
+            <li><a href="#">Component</a></li>
+        </ul>
+
+        <ul class="forms">
+            <h>Forms</h>
+            <li><a href="#">Form Elements</a></li>
+            <li><a href="#">Form Layouts</a></li>
+            <li><a href="#">Form Wizard</a></li>
+            <li><a href="#">Form Validation</a></li>
+        </ul>
+
+        <ul class="pages">
+            <h>Pages</h>
+            <li><a href="#">Authentification</a></li>
+            <li><a href="#">Coming Soon</a></li>
+            <li><a href="#">Error</a></li>
+            <li><a href="#">Maintenance</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">FAQ</a></p>
+            <li><a href="#">Knowledge Base</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">Invoice</a></li>
+        </ul>
+
+        <ul class="harts-maps">
+            <h>Charts & Maps</h>
+            <li><a href="#">Charts</a></li>
+            <li><a href="#">Google Map</a></li>
+        </ul>
+
+        <ul class="extensions">
+            <h>Extensions</h>
+            <li><a href="#">Select</a></li>
+            <li><a href="#">Quill Editor</a></li>
+            <li><a href="#">Drag & Drop</a></li>
+            <li><a href="#">Datepicker</a></li>
+        </ul> 
         
-        <div class="others">
-            <h1>Others</h1>
-            <p><a href="#">Menu Levels</a></p>
-            <p><a href="#">Disabled Menu</a></p>
-        </div>
+        <ul class="others">
+            <h>Others</h>
+            <li><a href="#">Menu Levels</a></li>
+            <li><a href="#">Disabled Menu</a></li>
+        </ul>
 
     </section>
 
