@@ -18,11 +18,12 @@ body {
     text-align: left;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-
-}
+    font-weight: normal;
     
+}
+
 .vertical-menu header {
-    background-color: #153b15;
+    /* background-color: #153b15; */
     max-width: 239px;
     display: inline-flex;
     margin-top: 21px;
@@ -39,9 +40,18 @@ body {
     color: #7e72f2;
 }
 
-.vertical-menu .dashboard {
-    margin-right: 24px;
+.vertical-menu div {
+    margin-left: 24px;
+    /* font-family: 'Montserrat', sans-serif; */
     line-height: 40px;
+}
+
+.vertical-menu select {
+    width: 236px;
+    height: 36px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f2f2f2;
 }
 
 .vertical-menu ul {
@@ -50,7 +60,6 @@ body {
     margin-top: 20px;
     margin-left: 37px;
     list-style: none;
-    font-weight: normal;
 
 }
 
