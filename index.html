@@ -6,38 +6,43 @@
     <title>Vuesax Ecommerce Dashboard</title>
     <link rel="stylesheet" href="css/style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> -->
-</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet"></head>
 <body>  
     <section class="vertical-menu">
         <header>
             <img src="img/v-menu/logo.svg" alt="Vuesax Logo">
-            <h>Vuesax</h>
+            <h1>Vuesax</h1>
             <img src="img/v-menu/Oval.svg" alt="">
         </header>
         
         
         <div class="dashboard">
-            <select name="dashboard-dropdown" id="">
-                <option value="">Dashboard</option>
-                <option value="">Analytics</option>
-                <option value="">eCommerce</option>
-            </select>
             <form action="#">
-                <p><input name="choose-dashboard" type="radio" value="Analytics">Analytics</p>
-                <p><input name="choose-dashboard" type="radio" value="eCommerce">eCommerce</p>
+                <select name="dashboard-dropdown" id="">
+                    <option value="dropdown-dash">Dashboard</option>
+                    <option value="dropdown-an">Analytics</option>
+                    <option value="dropdown-ec">eCommerce</option>
+                </select>
+                <div>
+                    <input name="choose-dash" type="radio" id="ana" value="an">
+                    <label for="ana">Analytics</label><br>
+                </div>
+                <div>
+                    <input name="choose-dash" type="radio" id="eco" value="ec">
+                    <label for="eco">eCommerce</label>
+                </div>
             </form>
         </div>
         <ul class="apps">
-            <h>Apps</h>
+            <h2>Apps</h2>
             <li><a href="#">Email</a></li>
             <li><a href="#">Chat</a></li>
             <li><a href="#">Todo</a></li>
             <li><a href="#">Calendar</a></li>
         </ul>
         <ul class="ui-elements">
-            <h>UI Elements</h>
+            <h2>UI Elements</h2>
             <li><a href="#">Grid</a></li>
             <li><a href="#">Colors</a></li>
             <li><a href="#">Card</a></li>
@@ -45,14 +50,14 @@
             <li><a href="#">Component</a></li>
         </ul>
         <ul class="forms">
-            <h>Forms</h>
+            <h2>Forms</h2>
             <li><a href="#">Form Elements</a></li>
             <li><a href="#">Form Layouts</a></li>
             <li><a href="#">Form Wizard</a></li>
             <li><a href="#">Form Validation</a></li>
         </ul>
         <ul class="pages">
-            <h>Pages</h>
+            <h2>Pages</h2>
             <li><a href="#">Authentification</a></li>
             <li><a href="#">Coming Soon</a></li>
             <li><a href="#">Error</a></li>
@@ -64,19 +69,19 @@
             <li><a href="#">Invoice</a></li>
         </ul>
         <ul class="harts-maps">
-            <h>Charts & Maps</h>
+            <h2>Charts & Maps</h2>
             <li><a href="#">Charts</a></li>
             <li><a href="#">Google Map</a></li>
         </ul>
         <ul class="extensions">
-            <h>Extensions</h>
+            <h2>Extensions</h2>
             <li><a href="#">Select</a></li>
             <li><a href="#">Quill Editor</a></li>
             <li><a href="#">Drag & Drop</a></li>
             <li><a href="#">Datepicker</a></li>
         </ul> 
         <ul class="others">
-            <h>Others</h>
+            <h2>Others</h2>
             <li><a href="#">Menu Levels</a></li>
             <li><a href="#">Disabled Menu</a></li>
         </ul>
